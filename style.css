@@ -73,8 +73,51 @@ a:hover {
     background-color: #0056b3;
 }
 
+/* Footer */
 footer {
     margin-top: 20px;
     font-size: 0.9em;
     color: #888;
+}
+
+/* Reviews Section */
+#reviews {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#reviews h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.review {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.review:last-child {
+    border: none;
+}
+
+.review p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Contact in Footer */
+footer p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: #0056b3;
 }
